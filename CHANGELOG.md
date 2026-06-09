@@ -14,3 +14,4 @@ Initial public release of `svg-design-system`.
 - Sample light and dark SVG cards.
 - 10 SVG palette examples for the README gallery.
 - Chinese `README.md` files are now the default GitHub view; English docs live in `README.en.md`.
+- Added an agent-install prompt that users can send directly to Codex or Claude Code.

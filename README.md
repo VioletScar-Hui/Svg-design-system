@@ -44,6 +44,14 @@ npx -y @larksuite/whiteboard-cli@^0.2.11 -v
 
 ## 给 AI Agent 的快速安装
 
+把下面这句话发给 Codex 或 Claude Code，让 Agent 自动完成安装或更新：
+
+```text
+帮我安装这个 skill：[VioletScar-Hui/Svg-design-system](https://github.com/VioletScar-Hui/Svg-design-system)
+```
+
+如果需要手动执行，或 Agent 需要直接运行命令，可以使用下面的安装脚本。
+
 Codex:
 
 ```powershell

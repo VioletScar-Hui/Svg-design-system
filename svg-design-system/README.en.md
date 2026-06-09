@@ -8,6 +8,12 @@ This directory contains the installable `svg-design-system` skill.
 
 ## Install Location
 
+You can also send this prompt to Codex or Claude Code and let the agent install the skill:
+
+```text
+帮我安装这个 skill：[VioletScar-Hui/Svg-design-system](https://github.com/VioletScar-Hui/Svg-design-system)
+```
+
 For Codex, copy this directory into:
 
 ```powershell

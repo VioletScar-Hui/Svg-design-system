@@ -44,7 +44,13 @@ When Feishu/Lark delivery is unavailable, the skill can still generate board-saf
 
 ## For AI Agents: Quick Install
 
-If a user asks you to install this skill, install or update it from GitHub, then restart the agent so the skill index reloads.
+Send this prompt to Codex or Claude Code and let the agent install or update the skill:
+
+```text
+帮我安装这个 skill：[VioletScar-Hui/Svg-design-system](https://github.com/VioletScar-Hui/Svg-design-system)
+```
+
+If you need to run the installation manually, or the agent needs executable commands, use the scripts below.
 
 For Codex:
 

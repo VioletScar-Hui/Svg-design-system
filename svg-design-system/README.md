@@ -8,6 +8,12 @@
 
 ## 安装位置
 
+也可以直接把下面这句话发给 Codex 或 Claude Code，让 Agent 自动安装：
+
+```text
+帮我安装这个 skill：[VioletScar-Hui/Svg-design-system](https://github.com/VioletScar-Hui/Svg-design-system)
+```
+
 Codex:
 
 ```powershell
