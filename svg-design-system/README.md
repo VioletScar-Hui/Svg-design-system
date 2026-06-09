@@ -1,33 +1,33 @@
 # SVG Design System
 
-[中文说明](README.zh-CN.md)
+[English README](README.en.md)
 
-This directory contains the installable `svg-design-system` skill.
+这个目录是可安装的 `svg-design-system` Skill。
 
-`svg-design-system` helps Codex and Claude Code generate professional SVG diagrams with clear information hierarchy. It includes a 5-level hierarchy method, 10 named palettes, reusable design tokens, diagram-type recipes, and a Feishu/Lark whiteboard-safe delivery pipeline.
+`svg-design-system` 帮助 Codex 和 Claude Code 生成专业 SVG 图表。它包含五级信息层级方法、10 组命名配色、可复用设计 token、不同图表类型的生成配方，以及飞书/Lark 画板安全输出流程。
 
-## Install Location
+## 安装位置
 
-For Codex, copy this directory into:
+Codex:
 
 ```powershell
 $env:USERPROFILE\.codex\skills\svg-design-system
 ```
 
-For Claude Code, copy this directory into:
+Claude Code:
 
 ```powershell
 $env:USERPROFILE\.claude\skills\svg-design-system
 ```
 
-Restart the agent after installation.
+安装后重启 Agent。
 
-## Contents
+## 目录内容
 
 ```text
 svg-design-system/
   README.md
-  README.zh-CN.md
+  README.en.md
   SKILL.md
   assets/
     palettes.json
@@ -51,44 +51,44 @@ svg-design-system/
     tokens.md
 ```
 
-## Core Workflow
+## 核心流程
 
-1. Clarify the usage scenario and whether Feishu/Lark whiteboard upload is needed.
-2. Choose the diagram type from the content structure.
-3. Build the 5 information levels before styling.
-4. Apply the palette and design tokens.
-5. Output SVG, optional PNG, or board-safe SVG for Feishu/Lark.
+1. 确认使用场景，以及是否需要上传到飞书/Lark 画板。
+2. 根据内容结构选择图表类型。
+3. 先搭建五级信息层级。
+4. 再应用配色和设计 token。
+5. 根据目标输出 SVG、可选 PNG，或飞书/Lark board-safe SVG。
 
-## Reference Files
+## 参考文件
 
-- [`references/palettes.md`](references/palettes.md): 10 named three-color palettes.
-- [`references/tokens.md`](references/tokens.md): canvas, typography, grid, stroke, shadow, and light/dark rules.
-- [`references/diagram-types.md`](references/diagram-types.md): selection rules and recipes for 7 diagram types.
-- [`references/feishu-pipeline.md`](references/feishu-pipeline.md): SVG to Feishu/Lark whiteboard workflow.
+- [`references/palettes.md`](references/palettes.md)：10 组命名三色配色。
+- [`references/tokens.md`](references/tokens.md)：画布、字体、网格、描边、阴影、深浅色规则。
+- [`references/diagram-types.md`](references/diagram-types.md)：7 类图表的选择规则和生成配方。
+- [`references/feishu-pipeline.md`](references/feishu-pipeline.md)：SVG 到飞书/Lark 画板的工作流。
 
-## Assets
+## 素材文件
 
-- [`assets/palettes.json`](assets/palettes.json): machine-readable palette source.
-- [`assets/sample-light-card.svg`](assets/sample-light-card.svg): light-background sample card.
-- [`assets/sample-dark-card.svg`](assets/sample-dark-card.svg): dark-background sample card.
+- [`assets/palettes.json`](assets/palettes.json)：机器可读的配色数据。
+- [`assets/sample-light-card.svg`](assets/sample-light-card.svg)：浅色背景示例卡片。
+- [`assets/sample-dark-card.svg`](assets/sample-dark-card.svg)：深色背景示例卡片。
 
-## Example Gallery
+## 示例画廊
 
-The `examples/` directory contains 10 SVG examples, one for each named palette:
+`examples/` 目录包含 10 张 SVG 示例，对应 10 组命名配色：
 
-| Palette | Preview |
+| 配色 | 预览 |
 |---|---|
-| 01 Deep Sea Coral | ![Deep Sea Coral example](examples/palette-01-deep-sea-coral.svg) |
-| 02 Acid Night | ![Acid Night example](examples/palette-02-acid-night.svg) |
-| 03 Forest Caramel | ![Forest Caramel example](examples/palette-03-forest-caramel.svg) |
-| 04 Wine Gold | ![Wine Gold example](examples/palette-04-wine-gold.svg) |
-| 05 Sea Breeze Daylight | ![Sea Breeze Daylight example](examples/palette-05-sea-breeze-daylight.svg) |
-| 06 Cool White Alert | ![Cool White Alert example](examples/palette-06-cool-white-alert.svg) |
-| 07 Cream Oasis | ![Cream Oasis example](examples/palette-07-cream-oasis.svg) |
-| 08 Cyber Neon | ![Cyber Neon example](examples/palette-08-cyber-neon.svg) |
-| 09 Wild Terracotta | ![Wild Terracotta example](examples/palette-09-wild-terracotta.svg) |
-| 10 Mint Dream | ![Mint Dream example](examples/palette-10-mint-dream.svg) |
+| 01 深海珊瑚 | ![深海珊瑚示例](examples/palette-01-deep-sea-coral.svg) |
+| 02 酸性幻夜 | ![酸性幻夜示例](examples/palette-02-acid-night.svg) |
+| 03 森林焦糖 | ![森林焦糖示例](examples/palette-03-forest-caramel.svg) |
+| 04 酒红鎏金 | ![酒红鎏金示例](examples/palette-04-wine-gold.svg) |
+| 05 海风日光 | ![海风日光示例](examples/palette-05-sea-breeze-daylight.svg) |
+| 06 冷白警醒 | ![冷白警醒示例](examples/palette-06-cool-white-alert.svg) |
+| 07 奶油绿洲 | ![奶油绿洲示例](examples/palette-07-cream-oasis.svg) |
+| 08 赛博霓虹 | ![赛博霓虹示例](examples/palette-08-cyber-neon.svg) |
+| 09 荒野陶土 | ![荒野陶土示例](examples/palette-09-wild-terracotta.svg) |
+| 10 薄荷梦境 | ![薄荷梦境示例](examples/palette-10-mint-dream.svg) |
 
-## License
+## 许可证
 
-See [`../LICENSE`](../LICENSE).
+见 [`../LICENSE`](../LICENSE)。
