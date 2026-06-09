@@ -13,4 +13,4 @@ Initial public release of `svg-design-system`.
 - Feishu/Lark whiteboard-safe SVG pipeline and constraints.
 - Sample light and dark SVG cards.
 - 10 SVG palette examples for the README gallery.
-- Bilingual repository README and skill-level README.
+- Separate English and Chinese README files at the repository root and skill-directory level.
