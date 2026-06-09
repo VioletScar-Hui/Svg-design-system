@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">海风日光｜FDE × AI 产品经理</title>
+  <desc id="desc">使用三色配色 #C8F7E2 / #102A43 / #FFD166 绘制的 FDE 与 AI 产品经理主题 SVG 卡片。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="rgba(0,0,0,.12)"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="rgba(0,0,0,.06)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="halo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD166" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#102A43" stop-opacity=".75"/>
+    </linearGradient>
+    <style>
+      .font { font-family: Inter, 'SF Pro Display', 'Noto Sans SC', 'Microsoft YaHei', Arial, sans-serif; }
+      .title { font-size: 58px; font-weight: 800; letter-spacing: -1.6px; }
+      .sub { font-size: 24px; font-weight: 600; }
+      .small { font-size: 18px; font-weight: 600; }
+      .tiny { font-size: 14px; font-weight: 700; letter-spacing: .8px; }
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" fill="#C8F7E2"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+
+  <circle cx="1060" cy="92" r="230" fill="#FFD166" opacity=".18"/>
+  <circle cx="80" cy="740" r="270" fill="#102A43" opacity=".13"/>
+  <path d="M0 580 C220 520 300 655 510 590 S880 470 1200 530 L1200 800 L0 800 Z" fill="#FFD166" opacity=".11"/>
+
+  <g class="font" fill="#102A43">
+    <text x="64" y="86" class="tiny">FDE / AI PRODUCT MANAGER / SVG SYSTEM CARD</text>
+    <text x="64" y="158" class="title">FDE × AI 产品经理</text>
+    <text x="68" y="204" class="sub" fill="#FFD166">海风日光 · 清爽协作 + 明确优先级</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="260" width="1072" height="440" rx="36" fill="rgba(255,255,255,.55)" stroke="rgba(0,0,0,.08)" stroke-width="1.4"/>
+  </g>
+
+  <!-- Left: FDE pipeline -->
+  <g class="font">
+    <text x="110" y="316" class="tiny" fill="rgba(0,0,0,.62)">FDE 工作流：从现场事实到可交付系统</text>
+    <g transform="translate(106 352)">
+      <rect x="0" y="0" width="188" height="92" rx="22" fill="#C8F7E2" stroke="#102A43" stroke-opacity=".75" stroke-width="3"/>
+      <text x="26" y="38" class="small" fill="#102A43">Field</text>
+      <text x="26" y="66" class="small" fill="rgba(0,0,0,.62)">需求/场景</text>
+      <path d="M210 46H282" stroke="#FFD166" stroke-width="5" stroke-linecap="round"/>
+      <path d="M272 31L292 46L272 61" fill="none" stroke="#FFD166" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <rect x="316" y="0" width="188" height="92" rx="22" fill="#C8F7E2" stroke="#FFD166" stroke-width="3"/>
+      <text x="342" y="38" class="small" fill="#102A43">Design</text>
+      <text x="342" y="66" class="small" fill="rgba(0,0,0,.62)">方案/原型</text>
+      <path d="M526 46H598" stroke="#FFD166" stroke-width="5" stroke-linecap="round"/>
+      <path d="M588 31L608 46L588 61" fill="none" stroke="#FFD166" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <rect x="632" y="0" width="188" height="92" rx="22" fill="#C8F7E2" stroke="#102A43" stroke-opacity=".75" stroke-width="3"/>
+      <text x="658" y="38" class="small" fill="#102A43">Engineer</text>
+      <text x="658" y="66" class="small" fill="rgba(0,0,0,.62)">上线/迭代</text>
+    </g>
+
+    <!-- Center: AI PM control panel -->
+    <g transform="translate(106 496)">
+      <rect x="0" y="0" width="500" height="142" rx="28" fill="#102A43" opacity=".96"/>
+      <text x="30" y="42" class="small" fill="#C8F7E2">AI PM 中控面板</text>
+      <text x="30" y="78" class="small" fill="#FFD166">Agent Loop · Prompt · Eval · Roadmap</text>
+      <rect x="30" y="98" width="108" height="14" rx="7" fill="#FFD166"/>
+      <rect x="150" y="98" width="80" height="14" rx="7" fill="#C8F7E2" opacity=".75"/>
+      <rect x="242" y="98" width="142" height="14" rx="7" fill="#C8F7E2" opacity=".42"/>
+      <rect x="396" y="98" width="54" height="14" rx="7" fill="#FFD166" opacity=".72"/>
+
+      <g transform="translate(548 -8)">
+        <circle cx="70" cy="70" r="58" fill="none" stroke="#FFD166" stroke-width="4"/>
+        <circle cx="70" cy="70" r="24" fill="#FFD166"/>
+        <path d="M70 12V0 M70 140v-12 M128 70h12 M0 70h12 M112 28l9-9 M28 112l-9 9 M112 112l9 9 M28 28l-9-9" stroke="#102A43" stroke-width="5" stroke-linecap="round" opacity=".78"/>
+        <text x="154" y="49" class="small" fill="#102A43">模型不是答案</text>
+        <text x="154" y="82" class="small" fill="rgba(0,0,0,.62)">系统才是产品</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right: AI brain / nodes -->
+  <g transform="translate(790 324)">
+    <circle cx="132" cy="126" r="102" fill="url(#halo)" opacity=".88"/>
+    <path d="M96 118c-32-10-40-56 0-68 12-34 64-28 76 0 42 2 58 54 24 77 26 28 6 72-36 68-18 25-62 18-70-8-38 0-54-45-24-69Z" fill="#C8F7E2" opacity=".92" stroke="#102A43" stroke-opacity=".85" stroke-width="4"/>
+    <circle cx="92" cy="115" r="8" fill="#FFD166"/>
+    <circle cx="137" cy="76" r="8" fill="#FFD166"/>
+    <circle cx="174" cy="128" r="8" fill="#FFD166"/>
+    <circle cx="126" cy="168" r="8" fill="#FFD166"/>
+    <path d="M92 115L137 76L174 128L126 168L92 115" fill="none" stroke="#102A43" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="-2" y="282" class="small font" fill="#102A43">需求 → 方案 → 数据 → 评估 → 迭代</text>
+  </g>
+
+  <!-- Footer palette strip -->
+  <g transform="translate(64 728)">
+    <rect x="0" y="0" width="1072" height="36" rx="18" fill="rgba(0,0,0,.08)"/>
+    <rect x="0" y="0" width="356" height="36" rx="18" fill="#C8F7E2" stroke="rgba(0,0,0,.08)"/>
+    <rect x="356" y="0" width="358" height="36" fill="#102A43"/>
+    <rect x="714" y="0" width="358" height="36" rx="18" fill="#FFD166"/>
+    <text x="18" y="24" class="tiny mono" fill="#102A43">05</text>
+    <text x="744" y="24" class="tiny mono" fill="#C8F7E2">#C8F7E2 / #102A43 / #FFD166</text>
+  </g>
+</svg>

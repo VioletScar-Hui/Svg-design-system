@@ -12,4 +12,5 @@ Initial public release of `svg-design-system`.
 - Diagram recipes for flowcharts, matrices, architecture diagrams, timelines, networks, cycles, and comparison charts.
 - Feishu/Lark whiteboard-safe SVG pipeline and constraints.
 - Sample light and dark SVG cards.
+- 10 SVG palette examples for the README gallery.
 - Bilingual repository README and skill-level README.
